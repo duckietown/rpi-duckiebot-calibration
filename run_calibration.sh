@@ -1,5 +1,9 @@
 #!/bin/bash
-set -eu
+
+set -e
+
+source /home/software/docker/env.sh
+
 TIMESTAMP=$(date +%Y%m%d%H%M%S)
 NAME="out-calibrate-extrinsics-$TIMESTAMP"
 VNAME="out-pipeline-$TIMESTAMP"
