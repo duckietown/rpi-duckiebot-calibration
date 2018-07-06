@@ -15,7 +15,7 @@ rosrun complete_image_pipeline calibrate_extrinsics -o /data/$NAME > /data/$NAME
 echo "********************"
 echo "Place the Duckiebot in a lane and press ENTER."
 read
-rosrun complete_image_pipeline single_image_pipeline -o /data/$NAME > /data/$VNAME.log
+rosrun complete_image_pipeline single_image_pipeline -o /data/$VNAME > /data/$VNAME.log
 
 echo "DONE. Review images under:"
 echo "     /data/$NAME"
