@@ -20,5 +20,4 @@ rosrun complete_image_pipeline single_image_pipeline -o /data/$VNAME > /data/$VN
 echo "DONE. Review images under:"
 echo "     /data/$NAME"
 echo "     /data/$VNAME"
-echo "If you have rpi-simple-server running, go to http://<DUCKIEBOT_NAME>.local:8080"
-
+echo "If you have duckietown/rpi-simple-server running, visit http://$HOSTNAME.local:8082/"
