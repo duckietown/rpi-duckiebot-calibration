@@ -1,4 +1,4 @@
-FROM duckietown/rpi-duckiebot-base
+FROM duckietown/rpi-gui-tools
 
 COPY run_calibration.sh .
 
