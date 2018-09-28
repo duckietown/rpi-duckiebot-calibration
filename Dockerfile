@@ -1,7 +1,4 @@
-FROM duckietown/rpi-gui-tools
-
-# TODO: use 'master18' of rpi-gui-tools
-
+FROM duckietown/rpi-gui-tools:master18
 
 COPY run_calibration.sh .
 
